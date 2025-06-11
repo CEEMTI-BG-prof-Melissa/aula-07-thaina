@@ -5,21 +5,33 @@
   <form  action="page.php" method="get">
     <h1>Método POST</h1>
     <br>
-    Nome Completo: <input type ="text" maxleght="50" id="Nome Completo" name="Nome Completo"> 
-    <br>  
-     Senha: <input type ="password" id="Senha" name="Senha"> 
+    <!--campo para Nome completo-->
+    <label for="Nome Completo:"> Nome Completo:  </label>
+    <input type ="text" maxleght="50" id="NomeCompleto" name="Nome Completo">
     <br>
-     Idade: <input type ="number" min="1" max="120" id="Idade" name="Idade">
+    <!--campo para senha-->  
+    <label for="Senha:"> Senha: </label>
+    <input type ="password" id="Senha" name="Senha"> 
     <br>
-     E-mail: <input type ="email" id="E-mail" name="Email">
+    <!--campo para idade-->
+    <label for="Idade:"> Idade: </label> 
+    <input type ="number" min="1" max="120" id="Idade" name="Idade">
     <br>
-     Data de Nascimento: <input type="date" min="-2000-01-01" max="2024-12-31" id="Data de Nascimento" name="Data de nascimento">
+    <!--este é um campo de email-->
+    <label for="Email"> Email: </label> 
+    <input type ="Email" id="Email" name="Email">
     <br>
-     Mensagem de Observações: 
+    <!--campo data de nascimento-->
+    <label for="Data de Nascimento:""> Data de Nascimento: </label>
+    <input type="date" min="-2000-01-01" max="2024-12-31" id="DatadeNascimento" name="Data de Nascimento">
+    <br>
+    <!--campo para deixar mensagens de observações-->
+    <label for="Mensagem de Observações:"> Mensagem de observações:  </label> 
     <br>
      <textarea rows="4" cols="40" > </textarea> 
     <br>
-    Area de interesse:  
+    <!--campo para selecionar area de interesse-->
+    <label for="Area de interesse:"> Area de interesse: </label>  
     <br>
     <select> 
       <option  id="Programação" value="Programação"> Programação </option>
